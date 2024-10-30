@@ -1,0 +1,1 @@
+<?phpglobal $wpdb;$mrylm_sql = "DROP TABLE {$wpdb->prefix}mrylm_setting";$wpdb->query($mrylm_sql);$mrylm_sql = "DROP TABLE {$wpdb->prefix}mrylm_cities";$wpdb->query($mrylm_sql);$mrylm_sql = "DROP TABLE {$wpdb->prefix}mrylm_news";$wpdb->query($mrylm_sql);$mrylm_sql = "DROP TABLE {$wpdb->prefix}mrylm_jobs";$wpdb->query($mrylm_sql);
